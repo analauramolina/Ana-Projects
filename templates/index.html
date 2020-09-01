@@ -48,12 +48,8 @@
               {% if result %}
               <div class="row">
                 <div class="col-md-6" style="margin: 0 auto;">
-              <div class="alert alert-success alert-dismissible fade show" role="alert">
-                <strong>{{q}} = {{ans}}</strong>
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                  <span aria-hidden="true">&times;</span>
-                </button>
-              </div>
+              <input class="alert alert-success alert-dismissible fade show" role="alert" name="resultado" value="{{q}}={{ans}}">             
+                </input>
             </div>
             </div>
             {% endif %}
