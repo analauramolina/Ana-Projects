@@ -17,5 +17,5 @@ entrada_box.send_keys(Keys.RETURN)
 resultado_box = driver.find_element_by_name("resultado")
 valor = resultado_box.get_attribute("value")
 assert valor == "2+2=4"
-#time.sleep(5)
+time.sleep(5)
 driver.quit()
